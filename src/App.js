@@ -11,16 +11,17 @@ import Navbar from './template/Navbar'
 import Header from './template/Header'
 import PageContent from './template/PageContent'
 import SiteFooter from './template/SiteFooter'
+import StateIntro from './stateSample/StateIntro'
+import StateCounterSample from './stateSample/StateCounterSample'
+import StateArraySample from './stateSample/StateArraySample'
+import StateArraySample2 from './stateSample/StateArraySample2'
 
 
 
 function App() {
   return (
     <>
-  <Navbar></Navbar>
-  <Header></Header>
-  <PageContent></PageContent>
-  <SiteFooter></SiteFooter>
+  <StateArraySample2></StateArraySample2>
     </>
   )
 }
