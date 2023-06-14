@@ -50,6 +50,8 @@ function UserList() {
         </div>
         <div>
             <button onClick={add}>Add</button>
+            <button onClick={() => setusers([])}>Empty</button>
+
         </div>
 
         <hr></hr>
